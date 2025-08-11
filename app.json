@@ -1,17 +1,19 @@
-{
-    "name": "pair session",
-    "description": "Web Session Generator",
-    "logo": "https://i.imgur.com/teQzVR1.jpeg",
-    "repository": "https://github.com/XdKing2/malvin-pair",
-    "keywords": ["MalvinTech","XdKing2"],
-    "success_url": "/", 
-    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
-    "env": {      
-      "PORT": {
-        "description": "Port for web app.4000,5000,3000... any!",
-        "value": "5000",
-        "required": false 
-      }
-    }   
 
-}
+{
+    "name": "star",
+    "description": "A whatsApp bot based on Baileysjs linrary (Ts+Js) with Multi Device support",
+    "repository": "https://github.com/XdKing2/star-xd",
+    "logo": "https://i.ibb.co/FLDpmJqt/malvin-xd.jpg",
+    "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+          }
+     ]
+} 
